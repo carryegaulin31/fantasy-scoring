@@ -1,5 +1,5 @@
 const { expect } = require('chai')
-const { describe, it } = require('mocha')
+//const { describe, it } = require('mocha')
 const calculateScore = require('./scoring')
 
 describe('calculateScore', () => {
@@ -56,7 +56,7 @@ describe('calculateScore', () => {
         return: {
           kickreturn: { returns: 2, yards: 16, touchdowns: 0, fumbles: 1 },
           puntreturn: { returns: 3, yards: 107, touchdowns: 1, fumbles: 0 },
-        },
+        }
       }
     }
 
